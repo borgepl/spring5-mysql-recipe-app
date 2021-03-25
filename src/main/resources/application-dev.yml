@@ -4,6 +4,7 @@ spring:
     password: guru
     url: jdbc:mysql://localhost:3306/sfg_dev?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
     initialization-mode: always
+    platform: mysql
   jpa:
     hibernate:
       ddl-auto: validate
